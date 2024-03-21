@@ -1,7 +1,7 @@
 function Blog() {
     return (
         <div className="blog">
-            <p>&copy; Copyright 2022, GRUVVE. All Rights Reserved.</p>
+            <p>&copy; Copyright 2024, Hassan. All Rights Reserved.</p>
         </div>
     )
 }

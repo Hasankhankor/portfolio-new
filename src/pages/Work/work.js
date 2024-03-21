@@ -17,24 +17,26 @@ function Work() {
             <div className="projects">
                 <div className="single">
                 <div className="single-img">
-                    <img src="https://ik.imagekit.io/onyedika/slide/calender_S6GI-SE7_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256123" alt="" />
+                    <img src="https://ik.imagekit.io/os33grffu/shadihall.PNG?updatedAt=1710869142680" alt="" />
                 </div>
                 <div className="single-detail">
-                    <h4>Company Calender</h4>
-                    <p><span>Problem:</span> Nigerian businesses across all sectors especially SME's struggle to comply with company legal regulations. <br/>
-                    <span>Solution:</span> Built a platform that will enable these companies at the tap of a button know what regulations apply to their incorporated company without having to afford a lawyer.</p>
+                    <h4>Shadi-Hall</h4>
+                    <p><span>Problem:</span> A Company need a website for Wedding Hall Booking in which There will be user login, Hall booking and chat <br/>
+                    <span>Solution:</span>Make a 3-minute plan for the wedding ,Easy Booking, Easy Living</p>
                     <div class="button-wrap">
-                     <button class="button">Visit &rarr;</button>
+                    <button class="button" onclick="window.location.href='https://shadihall2.vercel.app/'">Visit &rarr;</button>
+
+
                      </div>
                 </div>
                 </div>
                 <div className="single reverse">
                 <div className="single-img">
-                    <img src="https://ik.imagekit.io/onyedika/slide/pipar_peinACEKO.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256618" alt="" />
+                    <img src="https://ik.imagekit.io/os33grffu/Pakistaneyes.PNG?updatedAt=1710869225841" alt="" />
                 </div>
                 <div className="single-detail">
-                   <h4>Pipar</h4>
-                    <p>A Digital Web3 Platform For Tokenizing Company Shares/Stocks. These Assets Can Be Fungible Or Non-Fungible</p>
+                   <h4>Pakistan Eyes </h4>
+                    <p>A news website for a company in Wordpress</p>
                     <div class="button-wrap">
                      <button class="button">Visit &rarr;</button>
                      </div>
@@ -54,11 +56,11 @@ function Work() {
                 </div>
                 <div className="single reverse">
                 <div className="single-img">
-                    <img src="https://ik.imagekit.io/onyedika/slide/natour_QGZwpr7Ta.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256510" alt="" />
+                    <img src="https://ik.imagekit.io/os33grffu/Rideshare.PNG?updatedAt=1710869435736" alt="" />
                 </div>
                 <div className="single-detail">
-                    <h4>Natour</h4>
-                    <p>A Platform That Helps You Discover The Most Intriguing Locations For Your Vacations. Book Hotels And Spa's At A Cheaper Rate</p>
+                    <h4>Ride-Sharer</h4>
+                    <p>A Company Portfolio Website </p>
                     <div class="button-wrap">
                      <button class="button">Visit &rarr;</button>
                      </div>
@@ -66,11 +68,11 @@ function Work() {
                 </div>
                 <div className="single">
                 <div className="single-img">
-                    <img src="https://ik.imagekit.io/onyedika/slide/ncehr_GV14iEwWG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256179" alt="" />
+                    <img src="https://ik.imagekit.io/os33grffu/WhatsApp%20Image%202024-03-19%20at%2010.38.41%20PM.jpeg?updatedAt=1710869946775" alt="" />
                 </div>
                 <div className="single-detail">
-                    <h4>Ncehr</h4>
-                    <p>An NGO That Focuses On Solving The Problem Of Climate Change In Africa. They're Also Inter-Disciplinary With Various Academic Institutions Involved</p>
+                    <h4>Ride-Share DashBord</h4>
+                    <p>A platform that helps you view the current statistics of Ride Share Mobile App</p>
                     <div class="button-wrap">
                      <button class="button">Visit &rarr;</button>
                      </div>
@@ -78,11 +80,11 @@ function Work() {
                 </div>
                 <div className="single reverse">
                 <div className="single-img">
-                    <img src="https://ik.imagekit.io/onyedika/slide/guvve_sUg2If5kc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256276" alt="" />
+                    <img src="https://ik.imagekit.io/os33grffu/WhatsApp%20Image%202024-02-02%20at%205.56.22%20PM.jpeg?updatedAt=1710869868224" alt="" />
                 </div>
                 <div className="single-detail">
-                    <h4>Gruvve</h4>
-                    <p>Web3 Startup Accelerator, Both In Finance And Human Resource. They Look For Web3 Contributors Who Want To Make An Impact In The Web3 Space</p>
+                    <h4>Har Cheez Video Downloader</h4>
+                    <p>A video Downloader App in which user paste a link of any social Video and it will download the video to the local storage</p>
                     <div class="button-wrap">
                      <button class="button">Visit &rarr;</button>
                      </div>
@@ -90,11 +92,11 @@ function Work() {
                 </div>
                 <div className="single">
                 <div className="single-img">
-                    <img src="https://ik.imagekit.io/onyedika/slide/web3-forum_2lXPIycqd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256840" alt="" />
+                    <img src="https://ik.imagekit.io/os33grffu/great%20future%20pakistan.PNG?updatedAt=1710869437774" alt="" />
                 </div>
                 <div className="single-detail">
-                    <h4>Web3 Forum</h4>
-                    <p>A Web3 Forum Built On Top Of Polygon. Anyone Can Add Comments After Signing In With Metamask. This Was A Follow-Up Tutorial By Pointer.gg</p>
+                    <h4>Great Future Pakistan</h4>
+                    <p>The GREAT FUTURE is the central body for the promotion of different projects related to education, science & technology. For prosperous Pakistan!</p>
                     <div class="button-wrap">
                      <button class="button">Visit &rarr;</button>
                      </div>

@@ -1,7 +1,7 @@
 <svg width="32" height="44" viewBox="0 0 16 22" fill="none" xmlns="http://www.w3.org/2000/svg">
 <g filter="url(#filter0_d_0_52)">
 <path d="M10.9231 16.6154C11.0985 17.0363 10.9299 18.6305 10 19C9.07008 19.3695 7.88197 19 7.88197 19L5.72605 14.6882L2 18.4142V1.58579L13.4142 13H9.16151C9.37022 13.4002 10.7003 16.0806 10.9231 16.6154Z" fill="black"/>
-<path fill-rule="evenodd" clip-rule="evenodd" d="M3 4V16L6 13L8.5 18C8.5 18 9.17631 18.2158 9.5 18C9.82369 17.7842 10.1457 17.3496 10 17C9.31233 15.3496 7.5 12 7.5 12H11L3 4Z" fill="#14E956"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M3 4V16L6 13L8.5 18C8.5 18 9.17631 18.2158 9.5 18C9.82369 17.7842 10.1457 17.3496 10 17C9.31233 15.3496 7.5 12 7.5 12H11L3 4Z" fill="#1E453E"/>
 </g>
 <defs>
 <filter id="filter0_d_0_52" x="0.2" y="0.785787" width="15.0142" height="21.1785" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">

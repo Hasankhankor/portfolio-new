@@ -33,7 +33,7 @@ const ProjectSlider = ({setBackground}) => {
             className={index === current ? 'slide active' : 'slide'}
             key={index}
             onChange={setBackground(current)}
-          > 
+          >
               {/* <img src={slide.img} alt='project image' className='image' /> */}
               {/* <h4>{slide.title}</h4>
               <p>{slide.description}</p>

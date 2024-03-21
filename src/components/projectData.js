@@ -1,65 +1,52 @@
 export const ProjectData = [
     {
-        title: "PhoneBook App",
-        description: "Manage your phone contacts the easy way. create, update and delete your personal contacts all from one app. This is a MERN stack app with react redux toolkit. Find source code on my github",
-        img: "https://ik.imagekit.io/onyedika/phoneapp_oXM1Z9FA_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667104369642",
+        title: "Shadi-Hall",
+        description: "Make a 3-minute plan for the wedding ,Easy Booking, Easy Living",
+        img: "https://ik.imagekit.io/os33grffu/shadihall.PNG?updatedAt=1710869142680",
+        stack: "Next-Js",
+        link: "https://shadihall2.vercel.app/"
+    },
+    {
+        title: "Pakistan Eyes ",
+        description: "A news website for a company in Wordpress ",
+        img: "https://ik.imagekit.io/os33grffu/Pakistaneyes.PNG?updatedAt=1710869225841",
+        stack: "Wordpress",
+        link: "https://pakistaneyes.com/"
+    },
+    {
+        title: "Ride-Share",
+        description: "A Company Portfolio Website ",
+        img: "https://ik.imagekit.io/os33grffu/Rideshare.PNG?updatedAt=1710869435736",
         stack: "React",
-        link: "https://phone-rosy.vercel.app/"
+        link: "https://rideshares.netlify.app/"
     },
     {
-        title: "Pipar Beta",
-        description: "Start A Company And Manage Operations Across The Globe Right From Where You Are. Still in beta mode but the Authentication feature works. [DESKTOP MODE ONLY]",
-        img: "https://ik.imagekit.io/onyedika/slide/pipar-beta?ik-sdk-version=javascript-1.4.3&updatedAt=1664831519274",
-        stack: "Angular",
-        link: "https://pipar-beta.vercel.app/"
+        title: " Pakistan Cricket Stream",
+        description: "Pakistan Super League 2024 will be played from 17 February to 18 March",
+        img: "https://ik.imagekit.io/os33grffu/psl.PNG?updatedAt=1710869433873",
+        stack: "Next-Js",
+        link: "https://pakistancricketstream.netlify.app/"
     },
     {
-        title: "Pipar",
-        description: "A digital web3 platform for tokenizing company shares/stocks. These assets can be fungible or non-fungible",
-        img: "https://ik.imagekit.io/onyedika/slide/pipar_peinACEKO.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256618",
-        stack: "Angular",
-        link: "https://pipar.vercel.app/"
+        title: "Great Future Pakistan",
+        description: "The GREAT FUTURE is the central body for the promotion of different projects related to education, science & technology. For prosperous Pakistan!",
+        img: "https://ik.imagekit.io/os33grffu/great%20future%20pakistan.PNG?updatedAt=1710869437774",
+        stack: "Wordpress",
+        link: "https://greatfuture.org.pk/"
     },
     {
-        title: "Company Calender",
-        description: "Know legal requirements and dates the company must keep to avoid legal santions after a company is incorporated",
-        img: "https://ik.imagekit.io/onyedika/slide/calender_S6GI-SE7_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256123",
-        stack: "Angular",
-        link: "https://company-calender-front.vercel.app/"
-    },
-    {
-        title: "React Movie",
-        description: "Stay upto date with trending movies, see the authors of these movies and their casts. Also view the ratings!",
-        img: "https://ik.imagekit.io/onyedika/slide/movie_Si8QWOouP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256396",
+        title: "Ride-Share DashBord",
+        description: "A platform that helps you view the current statistics of Ride Share Mobile App ",
+        img: "https://ik.imagekit.io/os33grffu/WhatsApp%20Image%202024-03-19%20at%2010.38.41%20PM.jpeg?updatedAt=1710869946775",
         stack: "React",
-        link: "https://elastic-archimedes-a45a17.netlify.app/"
+        link: "https://rideshareadmin.netlify.app/Dashboard"
     },
     {
-        title: "Natour",
-        description: "A platform that helps you discover the most intriguing locations for your vacations. Book hotels and spa's at a cheaper rate",
-        img: "https://ik.imagekit.io/onyedika/slide/natour_QGZwpr7Ta.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256510",
-        stack: "CSS",
-        link: "https://natours-neon.vercel.app/"
+        title: "Har Cheez Video Downloader",
+        description: "A video Downloader App in which user paste a link of any social Video and it will download the video to the local storage ",
+        img: "https://ik.imagekit.io/os33grffu/WhatsApp%20Image%202024-02-02%20at%205.56.22%20PM.jpeg?updatedAt=1710869868224",
+        stack: "React Native",
+
     },
-    {
-        title: "NCEHR",
-        description: "An NGO that focuses on solving the problem of climate change in africa. They're also inter-disciplinary with various academic institutions involved",
-        img: "https://ik.imagekit.io/onyedika/slide/ncehr_GV14iEwWG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256179",
-        stack: "Angular",
-        link: "https://ncher-new.vercel.app/"
-    },
-    {
-        title: "Gruvve",
-        description: "web3 startup accelerator, both in finance and human resource. They look for web3 contributors who want to make an impact in the web3 space",
-        img: "https://ik.imagekit.io/onyedika/slide/guvve_sUg2If5kc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256276",
-        stack: "Node/React",
-        link: "https://gruvve-front.vercel.app/"
-    },
-    {
-        title: "Web3 Forum",
-        description: "A web3 forum built on top of polygon. Anyone can add comments after signing in with metamask. This was a follow-up tutorial by pointer.gg",
-        img: "https://ik.imagekit.io/onyedika/slide/web3-forum_2lXPIycqd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256840",
-        stack: "Polygon",
-        link: "https://comments-with-polygon-beta.vercel.app/"
-    },
+
 ];

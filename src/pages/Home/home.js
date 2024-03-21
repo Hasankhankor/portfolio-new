@@ -21,40 +21,32 @@ import { ReactComponent as PolygonImg } from './../../assets/images/polygon.svg'
 const Data = [
     {
         id: 0,
-        img: "https://ik.imagekit.io/onyedika/phoneapp_oXM1Z9FA_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1667104369642",
+        img: "https://ik.imagekit.io/os33grffu/shadihall.PNG?updatedAt=1710869142680",
     },
     {
         id: 1,
-        img: "https://ik.imagekit.io/onyedika/slide/pipar-beta?ik-sdk-version=javascript-1.4.3&updatedAt=1664831519274",
+        img: "https://ik.imagekit.io/os33grffu/Pakistaneyes.PNG?updatedAt=1710869225841",
     },
     {
         id: 2,
-        img: "https://ik.imagekit.io/onyedika/slide/pipar_peinACEKO.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256618",
+        img: "https://ik.imagekit.io/os33grffu/Rideshare.PNG?updatedAt=1710869435736",
     },
     {
         id: 3,
-        img: "https://ik.imagekit.io/onyedika/slide/calender_S6GI-SE7_.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256123",
+        img: "https://ik.imagekit.io/os33grffu/psl.PNG?updatedAt=1710869433873",
     },
     {
         id: 4,
-        img: "https://ik.imagekit.io/onyedika/slide/movie_Si8QWOouP.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256396",
+        img: "https://ik.imagekit.io/os33grffu/great%20future%20pakistan.PNG?updatedAt=1710869437774",
     },
     {
         id: 5,
-        img: "https://ik.imagekit.io/onyedika/slide/natour_QGZwpr7Ta.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256510",
+        img: "https://ik.imagekit.io/os33grffu/WhatsApp%20Image%202024-03-19%20at%2010.38.41%20PM.jpeg?updatedAt=1710869946775",
     },
     {
         id: 6,
-        img: "https://ik.imagekit.io/onyedika/slide/ncehr_GV14iEwWG.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256179",
-    },
-    {
-        id: 7,
-        img: "https://ik.imagekit.io/onyedika/slide/guvve_sUg2If5kc.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256276",
-    },
-    {
-        id: 8,
-        img: "https://ik.imagekit.io/onyedika/slide/web3-forum_2lXPIycqd.png?ik-sdk-version=javascript-1.4.3&updatedAt=1651255256840",
-    },
+        img: "https://ik.imagekit.io/os33grffu/WhatsApp%20Image%202024-02-02%20at%205.56.22%20PM.jpeg?updatedAt=1710869868224",
+    }
 ];
 
 
@@ -81,35 +73,35 @@ function Home() {
             fill: "#FFBD44", opacity: 1, scale: 1.3, duration: 1, ease: "none", transformOrigin: 'center center', stagger: 0.1, repeat: -1, yoyo: true
           })
         .fromTo(i(".b-three"), {fill: "#1E2128", opacity: 0, scale: 0.7}, {
-            fill: "#00CA4E", opacity: 1, scale: 1.3, duration: 1, ease: "none", transformOrigin: 'center center', stagger: 0.1, repeat: -1, yoyo: true
+            fill: "#1E453E", opacity: 1, scale: 1.3, duration: 1, ease: "none", transformOrigin: 'center center', stagger: 0.1, repeat: -1, yoyo: true
           })
         .fromTo(i(".a-one"), {opacity: 0}, {
             opacity: 1, duration: 1, ease: "none", transformOrigin: 'center center', repeat: -1, yoyo: true
           })
         .fromTo(i(".a-two"), {opacity: 0}, {
             opacity: 1, duration: 1, ease: "none", transformOrigin: 'center center', repeat: -1, yoyo: true
-          }) 
+          })
         .fromTo(i(".a-three"), {opacity: 0}, {
             opacity: 1, duration: 1, ease: "none", transformOrigin: 'center center', repeat: -1, yoyo: true
-          }) 
+          })
         .fromTo(i(".a-four"), {opacity: 0}, {
             opacity: 1, duration: 1, ease: "none", transformOrigin: 'center center', repeat: -1, yoyo: true
-          }) 
+          })
         .fromTo(i(".a-five"), {opacity: 0}, {
             opacity: 1, duration: 1, ease: "none", transformOrigin: 'center center', repeat: -1, yoyo: true
-          }) 
+          })
         .fromTo(i(".a-six"), {opacity: 0}, {
             opacity: 1, duration: 1, ease: "none", transformOrigin: 'center center', repeat: -1, yoyo: true
-          }) 
+          })
         .fromTo(i(".a-seven"), {opacity: 0}, {
             opacity: 1, duration: 1, ease: "none", transformOrigin: 'center center', repeat: -1, yoyo: true
-          }) 
+          })
         .fromTo(i(".a-eight"), {opacity: 0}, {
             opacity: 1, duration: 1, ease: "none", transformOrigin: 'center center', repeat: -1, yoyo: true
-          }) 
+          })
         .fromTo(i(".a-nine"), {opacity: 0}, {
             opacity: 1, duration: 1, ease: "none", transformOrigin: 'center center', repeat: -1, yoyo: true
-          })     
+          })
     });
 
     const [background, setBackground] = useState('');
@@ -120,9 +112,9 @@ function Home() {
 
     const nav = () => {
         return navigate('/work'), window.location.reload();
-        
+
       }
-    
+
     const Styles = {
        backgroundImage: `url(${image})`
     }
@@ -146,7 +138,7 @@ function Home() {
             <div className="home-intro hidden">
                 <div className="content">
                 <div className="content-tertiary">
-                    <p><span>✌🏻</span> Hi there! I'm Onyedika</p>
+                    <p><span>✌🏻</span> Hi there! I'm Hassan Tariq</p>
                 </div>
                 <div className="content-primary">
                     <h1>a <span>Frontend Engineer</span>. I help startups <span>launch</span> and <span>grow</span> their products</h1>
@@ -155,10 +147,10 @@ function Home() {
                     <p>I am a software engineer with more than four years of experience. Recognized as a practical and effective developer, experienced in leading cross-functional teams in a time-pressured setting to complete projects on schedule and within budget.</p>
                 </div>
                 </div>
-                
+
                 <div className="hero-icon">
                 <svg ref={Illus} viewBox="0 0 3170 2318" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M2258.58 1777.45C2261.92 1847.89 2205.69 1906.8 2135.18 1906.8V2038.47L1871.04 2031.8L1736.18 2028.32L1195.42 2014.61L1236.92 1781.23H1338.85L1473.93 1494.53C1496.71 1444.04 1537.77 1403.92 1588.77 1382.3L1766.44 1306.92C1776.23 1320.05 1789.58 1330.5 1804.96 1336.95C1807.64 1338.11 1810.4 1339.13 1813.23 1340C1817.44 1341.31 1821.79 1342.32 1826.29 1343.05H1826.36C1829.33 1343.56 1832.31 1343.85 1835.36 1344.07C1837.39 1344.21 1839.35 1344.29 1841.38 1344.29C1842.47 1344.44 1843.56 1344.44 1844.64 1344.44C1850.95 1344.66 1857.34 1344.66 1863.65 1344.44C1866.7 1344.37 1869.67 1344.29 1872.72 1344.08C1875.77 1343.86 1878.81 1343.57 1881.79 1343.06C1886.29 1342.33 1890.64 1341.32 1894.85 1340.01C1897.68 1339.14 1900.44 1338.12 1903.12 1336.96C1928.37 1326.44 1947.88 1305.18 1956.01 1279L2163.49 1397.4C2212.75 1425.55 2244.23 1476.84 2246.92 1533.5L2258.58 1777.45Z" fill="#14E956"/>
+<path d="M2258.58 1777.45C2261.92 1847.89 2205.69 1906.8 2135.18 1906.8V2038.47L1871.04 2031.8L1736.18 2028.32L1195.42 2014.61L1236.92 1781.23H1338.85L1473.93 1494.53C1496.71 1444.04 1537.77 1403.92 1588.77 1382.3L1766.44 1306.92C1776.23 1320.05 1789.58 1330.5 1804.96 1336.95C1807.64 1338.11 1810.4 1339.13 1813.23 1340C1817.44 1341.31 1821.79 1342.32 1826.29 1343.05H1826.36C1829.33 1343.56 1832.31 1343.85 1835.36 1344.07C1837.39 1344.21 1839.35 1344.29 1841.38 1344.29C1842.47 1344.44 1843.56 1344.44 1844.64 1344.44C1850.95 1344.66 1857.34 1344.66 1863.65 1344.44C1866.7 1344.37 1869.67 1344.29 1872.72 1344.08C1875.77 1343.86 1878.81 1343.57 1881.79 1343.06C1886.29 1342.33 1890.64 1341.32 1894.85 1340.01C1897.68 1339.14 1900.44 1338.12 1903.12 1336.96C1928.37 1326.44 1947.88 1305.18 1956.01 1279L2163.49 1397.4C2212.75 1425.55 2244.23 1476.84 2246.92 1533.5L2258.58 1777.45Z" fill="#1E453E"/>
 <g opacity="0.55">
 <g opacity="0.55">
 <g opacity="0.55">
@@ -172,7 +164,7 @@ function Home() {
 </g>
 </g>
 </g>
-<path d="M1960.27 1170.09V1251.27C1960.27 1260.92 1958.82 1270.21 1955.99 1278.98C1947.86 1305.17 1928.35 1326.43 1903.1 1336.94C1900.42 1338.1 1897.66 1339.12 1894.83 1339.99C1890.62 1341.3 1886.27 1342.31 1881.77 1343.04C1878.8 1343.55 1875.75 1343.84 1872.7 1344.06C1869.65 1344.28 1866.68 1344.35 1863.63 1344.42C1857.32 1344.64 1850.93 1344.64 1844.62 1344.42C1843.53 1344.42 1842.44 1344.35 1841.36 1344.27C1839.33 1344.27 1837.37 1344.2 1835.34 1344.05C1832.29 1343.83 1829.32 1343.54 1826.34 1343.03C1826.27 1342.96 1826.27 1343.03 1826.27 1343.03C1821.77 1342.3 1817.42 1341.29 1813.21 1339.98C1810.45 1339.11 1807.7 1338.09 1804.94 1336.93C1789.56 1330.47 1776.21 1320.03 1766.42 1306.9C1754.74 1291.37 1747.85 1272.15 1747.85 1251.33C1793.48 1257.5 1839.11 1248.43 1884.75 1224.2C1886.85 1223.11 1888.89 1221.95 1890.99 1220.72C1892.95 1219.63 1894.83 1218.54 1896.79 1217.38C1899.55 1215.78 1902.23 1214.19 1904.92 1212.45C1907.02 1211.07 1909.13 1209.69 1911.23 1208.31C1927.63 1197.51 1943.95 1184.82 1960.27 1170.09Z" fill="#FBD6A2"/>
+<path d="M1960.27 1170.09V1251.27C1960.27 1260.92 1958.82 1270.21 1955.99 1278.98C1947.86 1305.17 1928.35 1326.43 1903.1 1336.94C1900.42 1338.1 1897.66 1339.12 1894.83 1339.99C1890.62 1341.3 1886.27 1342.31 1881.77 1343.04C1878.8 1343.55 1875.75 1343.84 1872.7 1344.06C1869.65 1344.28 1866.68 1344.35 1863.63 1344.42C1857.32 1344.64 1850.93 1344.64 1844.62 1344.42C1843.53 1344.42 1842.44 1344.35 1841.36 1344.27C1839.33 1344.27 1837.37 1344.2 1835.34 1344.05C1832.29 1343.83 1829.32 1343.54 1826.34 1343.03C1826.27 1342.96 1826.27 1343.03 1826.27 1343.03C1821.77 1342.3 1817.42 1341.29 1813.21 1339.98C1810.45 1339.11 1807.7 1338.09 1804.94 1336.93C1789.56 1330.47 1776.21 1320.03 1766.42 1306.9C1754.74 1291.37 1747.85 1272.15 1747.85 1251.33C1793.48 1257.5 1839.11 1248.43 1884.75 1224.2C1886.85 1223.11 1888.89 1221.95 1890.99 1220.72C1892.95 1219.63 1894.83 1218.54 1896.79 1217.38C1899.55 1215.78 1902.23 1214.19 1904.92 1212.45C1907.02 1211.07 1909.13 1209.69 1911.23 1208.31C1927.63 1197.51 1943.95 1184.82 1960.27 1170.09Z" fill="#1E453E"/>
 <g opacity="0.3">
 <g opacity="0.3">
 <g opacity="0.3">
@@ -514,8 +506,8 @@ function Home() {
 </g>
 </g>
 </g>
-<path d="M2994.53 2145.08H178.71C140.02 2145.08 108.55 2113.61 108.55 2074.92C108.55 2036.23 140.02 2004.76 178.71 2004.76H2994.54C3033.23 2004.76 3064.7 2036.23 3064.7 2074.92C3064.69 2113.61 3033.22 2145.08 2994.53 2145.08ZM178.71 2039.76C159.32 2039.76 143.55 2055.53 143.55 2074.92C143.55 2094.31 159.32 2110.08 178.71 2110.08H2994.54C3013.93 2110.08 3029.7 2094.31 3029.7 2074.92C3029.7 2055.53 3013.93 2039.76 2994.54 2039.76H178.71Z" fill="#1E2128"/>
-<path d="M2345.98 1918C2345.98 1886.97 2371.14 1861.81 2402.17 1861.81H2876.76C2890.24 1861.81 2901.17 1850.88 2901.17 1837.4C2901.17 1823.92 2890.24 1812.99 2876.76 1812.99H2397.69C2339.7 1812.99 2292.69 1860 2292.69 1917.99C2292.69 1975.98 2339.7 2022.99 2397.69 2022.99H2876.76C2890.24 2022.99 2901.17 2012.06 2901.17 1998.58C2901.17 1985.1 2890.24 1974.17 2876.76 1974.17H2402.17C2371.14 1974.19 2345.98 1949.03 2345.98 1918Z" fill="#34A958"/>
+<path d="M2994.53 2145.08H178.71C140.02 2145.08 108.55 2113.61 108.55 2074.92C108.55 2036.23 140.02 2004.76 178.71 2004.76H2994.54C3033.23 2004.76 3064.7 2036.23 3064.7 2074.92C3064.69 2113.61 3033.22 2145.08 2994.53 2145.08ZM178.71 2039.76C159.32 2039.76 143.55 2055.53 143.55 2074.92C143.55 2094.31 159.32 2110.08 178.71 2110.08H2994.54C3013.93 2110.08 3029.7 2094.31 3029.7 2074.92C3029.7 2055.53 3013.93 2039.76 2994.54 2039.76H178.71Z" fill="##000080"/>
+<path d="M2345.98 1918C2345.98 1886.97 2371.14 1861.81 2402.17 1861.81H2876.76C2890.24 1861.81 2901.17 1850.88 2901.17 1837.4C2901.17 1823.92 2890.24 1812.99 2876.76 1812.99H2397.69C2339.7 1812.99 2292.69 1860 2292.69 1917.99C2292.69 1975.98 2339.7 2022.99 2397.69 2022.99H2876.76C2890.24 2022.99 2901.17 2012.06 2901.17 1998.58C2901.17 1985.1 2890.24 1974.17 2876.76 1974.17H2402.17C2371.14 1974.19 2345.98 1949.03 2345.98 1918Z" fill="##000080"/>
 <path d="M2876.76 2035.5H2397.69C2332.9 2035.5 2280.19 1982.79 2280.19 1918C2280.19 1853.21 2332.9 1800.5 2397.69 1800.5H2876.76C2897.11 1800.5 2913.67 1817.06 2913.67 1837.41C2913.67 1857.76 2897.11 1874.32 2876.76 1874.32H2402.18C2378.09 1874.32 2358.49 1893.92 2358.49 1918.01C2358.49 1942.1 2378.09 1961.7 2402.18 1961.7H2876.76C2897.11 1961.7 2913.67 1978.25 2913.67 1998.6C2913.67 2018.94 2897.11 2035.5 2876.76 2035.5ZM2397.69 1825.5C2346.68 1825.5 2305.19 1866.99 2305.19 1918C2305.19 1969.01 2346.68 2010.5 2397.69 2010.5H2876.76C2883.33 2010.5 2888.67 2005.16 2888.67 1998.59C2888.67 1992.02 2883.33 1986.69 2876.76 1986.69H2402.18C2364.3 1986.69 2333.49 1955.88 2333.49 1918C2333.49 1880.13 2364.3 1849.31 2402.18 1849.31H2876.76C2883.33 1849.31 2888.67 1843.97 2888.67 1837.4C2888.67 1830.83 2883.33 1825.49 2876.76 1825.49H2397.69V1825.5Z" fill="#1E2128"/>
 <g opacity="0.5">
 <g opacity="0.5">
@@ -881,15 +873,15 @@ function Home() {
                 <div className="featured-box">
                     <div className="article">
                         <div className="top">
-                            <p>Publisher: <span>Hackernoon</span></p>
+                            <p>Publisher: <span>Hasankhankor</span></p>
                         </div>
                         <div className="bottom">
-                            <h4>An Intro to Algorithms and Data Structures (Javascript Edition)</h4>
+                            <h4>Revolutionize Your Content Strategy with All Video Downloader App</h4>
                             <div className="info">
-                                <p>Sept 15, 2022</p>
-                                <a href='https://hackernoon.com/an-intro-to-algorithms-and-data-structures-javascript-edition'  target='_blank' rel='noreferrer'><svg width="35" height="24" viewBox="0 0 45 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M44.4481 13.7591L31.2866 0.548391C30.9325 0.208882 30.4595 0.0214931 29.969 0.0263367C29.4784 0.0311803 29.0092 0.227871 28.6619 0.574307C28.3145 0.920742 28.1166 1.38939 28.1105 1.87994C28.1043 2.37048 28.2904 2.84394 28.629 3.19897L38.5212 13.1263H1.8772C1.62149 13.1106 1.36528 13.1475 1.12434 13.2346C0.883402 13.3216 0.662838 13.4571 0.476227 13.6326C0.289616 13.8081 0.140908 14.02 0.0392584 14.2552C-0.062391 14.4903 -0.11483 14.7438 -0.11483 15C-0.11483 15.2562 -0.062391 15.5097 0.0392584 15.7448C0.140908 15.98 0.289616 16.1918 0.476227 16.3674C0.662838 16.5429 0.883402 16.6784 1.12434 16.7654C1.36528 16.8525 1.62149 16.8894 1.8772 16.8737H38.6689L28.636 26.794C28.4452 26.9637 28.2909 27.1705 28.1828 27.4018C28.0746 27.6332 28.0147 27.8841 28.0069 28.1394C27.9991 28.3947 28.0434 28.6488 28.1372 28.8864C28.231 29.1239 28.3722 29.3398 28.5523 29.5209C28.7324 29.7019 28.9476 29.8443 29.1846 29.9394C29.4216 30.0344 29.6756 30.0801 29.9309 30.0736C30.1862 30.0671 30.4375 30.0086 30.6694 29.9017C30.9013 29.7947 31.1089 29.6416 31.2796 29.4516L44.4411 16.4167C44.6158 16.2423 44.7544 16.0352 44.849 15.8072C44.9436 15.5792 44.9923 15.3347 44.9923 15.0879C44.9923 14.841 44.9436 14.5966 44.849 14.3686C44.7544 14.1406 44.6158 13.9334 44.4411 13.7591H44.4481Z" fill="white"/>
-</svg></a>
+                                <p>Sept 15, 2024</p>
+                                <a href="https://www.linkedin.com/posts/hasan-khankor-038795199_videodownloader-contentstrategy-digitalmarketing-activity-7155147223297601538-fVca?utm_source=share&utm_medium=member_desktop">
+                                <svg fill="white"></svg>
+    </a>
                             </div>
                         </div>
                     </div>
@@ -899,7 +891,7 @@ function Home() {
             <div className="quote-body">
                 <QuoteLeft className="left" />
             <div className="quote-body-content">
-                <p>There's no nobility in playing small. Be different<span>!</span></p>
+                <p>Creativity is not just about invention, but also about curation. Pulling things from the internet and pasting them into your project is like weaving a tapestry of innovation, stitching together ideas to create something entirely new.<span>!</span></p>
             </div>
             <QuoteRight className="right" />
             </div>
