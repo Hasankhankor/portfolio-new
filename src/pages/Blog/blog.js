@@ -1,3 +1,5 @@
+import React from 'react';
+
 function Blog() {
     return (
         <div className="blog">
@@ -6,4 +8,4 @@ function Blog() {
     )
 }
 
-export default Blog
+export default Blog;

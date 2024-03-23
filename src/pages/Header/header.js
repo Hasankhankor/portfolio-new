@@ -13,23 +13,22 @@ function Header() {
 
     const animeOne = () => {
         tlMenu.current = gsap.timeline()
-        .fromTo(s(".menu-one"), {x: -20, opacity: 0}, {
+        .fromTo(gsap.utils.selector(".menu-one"), {x: -20, opacity: 0}, {
             x: 0, opacity: 1, duration: .7, ease: "powerIn", transformOrigin: 'center center', stagger: 0.1
           })
-        .fromTo(s(".menu-two"), {x: -20, opacity: 0}, {
+        .fromTo(gsap.utils.selector(".menu-two"), {x: -20, opacity: 0}, {
             x: 0, opacity: 1, duration: .7, ease: "powerIn", transformOrigin: 'center center', stagger: 0.1
           })
-        .fromTo(s(".menu-three"), {x: -20, opacity: 0}, {
+        .fromTo(gsap.utils.selector(".menu-three"), {x: -20, opacity: 0}, {
             x: 0, opacity: 1, duration: .7, ease: "powerIn", transformOrigin: 'center center', stagger: 0.1
           })
-        .fromTo(s(".menu-four"), {x: -20, opacity: 0}, {
+        .fromTo(gsap.utils.selector(".menu-four"), {x: -20, opacity: 0}, {
             x: 0, opacity: 1, duration: .7, ease: "powerIn", transformOrigin: 'center center', stagger: 0.1
           })
-        .fromTo(s(".menu-five"), {x: -20, opacity: 0}, {
+        .fromTo(gsap.utils.selector(".menu-five"), {x: -20, opacity: 0}, {
             x: 0, opacity: 1, duration: .7, ease: "powerIn", transformOrigin: 'center center', stagger: 0.1
           })
     }
-
     const triggerAnime = () => {
         if (checked) {
             return animeOne();
